@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 100px rgb(165, 164, 164);
+    border-radius: 10px;
+}
+
+.textsection {
+    padding: 30px;
+}
+
+.textsection h2 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+
+.textsection h3 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 20px;
+}
+
+.textsection p {
+    color: hsl(218, 22%, 67%);
+    line-height: 30px;
+}
+
+.monthly h3 {
+    padding-bottom: 20px;
+}
+
+.dollar {
+    color: hsl(212, 21%, 88%);
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.pitch {
+    padding-bottom: 20px;
+}
+
+.monthly {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 30px;
+}
+
+.monthly button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    box-shadow: 1px 1px 25px grey;
+    width: 290px;
+    padding: 15px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.whyus {
+    background-color: hsl(179, 62%, 43%, 0.7);
+    color: white;
+    padding: 30px;
+}
+
+.whyus h3 {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 7px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 1000px;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 1 100px;
+    }
+
+    .textsection {
+        grid-column: span 2;
+    }
+
+}
+
