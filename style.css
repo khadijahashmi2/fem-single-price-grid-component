@@ -6,9 +6,15 @@
     font-family: 'Karla', sans-serif;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .container {
     width: 350px;
-    margin: 0 auto;
     box-shadow: 10px 10px 100px rgb(165, 164, 164);
     border-radius: 10px;
 }
@@ -17,12 +23,13 @@
     padding: 30px;
 }
 
-.textsection h2 {
+.textsection h1 {
     color: hsl(179, 62%, 43%);
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
-.textsection h3 {
+.textsection h2 {
     color: hsl(71, 73%, 54%);
     padding-bottom: 20px;
 }
@@ -32,7 +39,7 @@
     line-height: 30px;
 }
 
-.monthly h3 {
+.monthly h2 {
     padding-bottom: 20px;
 }
 
@@ -77,7 +84,7 @@ span {
     padding: 30px;
 }
 
-.whyus h3 {
+.whyus h2 {
     padding-bottom: 20px;
 }
 
@@ -88,6 +95,7 @@ ul {
 li {
     padding-bottom: 7px;
 }
+
 
 @media only screen and (min-width: 1000px) {
     .container {
